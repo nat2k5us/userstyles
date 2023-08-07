@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding-top: 64px;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+
+html, body {
+    height: 100%;
+    color: #232333;
+     background-color: black;
+}
+
+* {
+    font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
+}
+
+body {
+    display: block;
+    margin: 8px;
+     background-color: black;
+}
+#header_container{
+    background-color:#19273f
+}
+
+.I0MG3p8Q{
+    background: #344d86;
+}
