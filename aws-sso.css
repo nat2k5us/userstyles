@@ -1,0 +1,204 @@
+element.style {}
+div {
+    display: block;
+    background-color: #321f36;
+}
+body {
+    font-family: "Ember";
+    text-rendering: optimizeLegibility;
+    background: black;
+}
+html,
+body {
+    -moz-osx-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 500;
+    font-family: "Ember" !important;
+    margin: 0 !important;
+}
+
+portal-profile > span .profile-name {
+    color: pink;
+}
+portal-instance > .portal-instance-section > .instance-section > .instance-block > .name {
+    background-color: white;
+}
+portal-instance > .portal-instance-section > .instance-section > .instance-block > .metadata {
+    font-size: large;
+}
+:root {
+    --awsui-color-grey-100: #fafafa;
+    --awsui-color-grey-150: #f2f3f3;
+    --awsui-color-grey-200: #eaeded;
+    --awsui-color-grey-300: #d5dbdb;
+    --awsui-color-grey-400: #aab7b8;
+    --awsui-color-grey-450: #95a5a6;
+    --awsui-color-grey-500: #879596;
+    --awsui-color-grey-550: #687078;
+    --awsui-color-grey-600: #545b64;
+    --awsui-color-grey-650: #414750;
+    --awsui-color-grey-700: #2a2e33;
+    --awsui-color-grey-750: #21252c;
+    --awsui-color-grey-800: #1a2029;
+    --awsui-color-grey-900: #16191f;
+    --awsui-color-grey-950: #222;
+    --awsui-color-grey-transparent-heavy: rgba(0, 28, 36, 0.5);
+    --awsui-color-grey-transparent: rgba(0, 28, 36, 0.3);
+    --awsui-color-grey-transparent-light: rgba(0, 28, 36, 0.15);
+    --awsui-color-grey-opaque-25: hsla(0, 0%, 100%, 0.25);
+    --awsui-color-grey-opaque-40: rgba(0, 0, 0, 0.4);
+    --awsui-color-grey-opaque-50: rgba(0, 0, 0, 0.5);
+    --awsui-color-grey-opaque-70: hsla(0, 0%, 100%, 0.7);
+    --awsui-color-grey-opaque-80: rgba(22, 25, 31, 0.8);
+    --awsui-color-grey-opaque-90: rgba(242, 243, 243, 0.9);
+    --awsui-color-orange-100: #fef6f0;
+    --awsui-color-orange-300: #f7bf9c;
+    --awsui-color-orange-500: #ec7211;
+    --awsui-color-orange-600: #eb5f07;
+    --awsui-color-orange-700: #dd6b10;
+    --awsui-color-blue-100: #f1faff;
+    --awsui-color-blue-300: #99cbe4;
+    --awsui-color-blue-400: #44b9d6;
+    --awsui-color-blue-500: #00a1c9;
+    --awsui-color-blue-600: #0073bb;
+    --awsui-color-blue-700: #0a4a74;
+    --awsui-color-blue-900: #12293b;
+    --awsui-color-blue-opaque: rgba(51, 136, 221, 0.5);
+    --awsui-color-green-100: #f2f8f0;
+    --awsui-color-green-300: #a5d099;
+    --awsui-color-green-500: #6aaf35;
+    --awsui-color-green-600: #1d8102;
+    --awsui-color-green-700: #1a520f;
+    --awsui-color-green-900: #172211;
+    --awsui-color-red-100: #fdf3f1;
+    --awsui-color-red-300: #f2ada0;
+    --awsui-color-red-500: #ff5d64;
+    --awsui-color-red-600: #d13212;
+    --awsui-color-red-700: #7c2718;
+    --awsui-color-red-900: #270a11;
+    --awsui-color-black: #000;
+}
+
+:root {
+    color-scheme: dark;
+    accent-color: var(--native-dark-accent-color);
+}
+
+:root,
+::after,
+::before,
+::backdrop {
+    --native-dark-accent-color: #a9a9a9;
+    --native-dark-bg-color: #292929;
+    --native-dark-bg-image-color: rgba(0, 0, 0, 0.10);
+    --native-dark-bg-image-filter: brightness(50%) contrast(200%);
+    --native-dark-border-color: #555555;
+    --native-dark-box-shadow: 0 0 0 1px rgb(255 255 255 / 10%);
+    --native-dark-cite-color: #92de92;
+    --native-dark-fill-color: #7d7d7d;
+    --native-dark-font-color: #dcdcdc;
+    --native-dark-link-color: #8db2e5;
+    --native-dark-opacity: 0.85;
+    --native-dark-text-shadow: none;
+    --native-dark-transparent-color: transparent;
+    --native-dark-visited-link-color: #c76ed7;
+}
+
+html {
+    font-size: .625rem;
+}
+portal-application-list > .selected {
+    background-color: #321f36;
+}
+portal-instance > .portal-instance-section > .instance-section:hover {
+    background-color: purple;
+}
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+html {
+    font-size: 1rem;
+}
+
+sso-modal .dialog .dialog-header h2 {
+    color: white;
+}
+
+creds-modal .modal-subsection .main-description {
+    color: white;
+}
+
+creds-modal .description-content {
+    color: white;
+}
+creds-modal .item label {
+    color: white;
+}
+portal-instance > .portal-instance-section > .instance-section {
+    color: green;
+}
+portal-profile {
+    font-size: 18px;
+}
+:root,
+::after,
+::before,
+::backdrop {
+    --native-dark-accent-color: #a9a9a9;
+    --native-dark-bg-color: #292929;
+    --native-dark-bg-image-color: rgba(0, 0, 0, 0.10);
+    --native-dark-bg-image-filter: brightness(50%) contrast(200%);
+    --native-dark-border-color: #555555;
+    --native-dark-box-shadow: 0 0 0 1px rgb(255 255 255 / 10%);
+    --native-dark-cite-color: #92de92;
+    --native-dark-fill-color: #7d7d7d;
+    --native-dark-font-color: #dcdcdc;
+    --native-dark-link-color: #8db2e5;
+    --native-dark-opacity: 0.85;
+    --native-dark-text-shadow: none;
+    --native-dark-transparent-color: transparent;
+    --native-dark-visited-link-color: #c76ed7;
+}
+
+:root,
+::after,
+::before,
+::backdrop {
+    --native-dark-accent-color: #a9a9a9;
+    --native-dark-bg-color: #292929;
+    --native-dark-bg-image-color: rgba(0, 0, 0, 0.10);
+    --native-dark-bg-image-filter: brightness(50%) contrast(200%);
+    --native-dark-border-color: #555555;
+    --native-dark-box-shadow: 0 0 0 1px rgb(255 255 255 / 10%);
+    --native-dark-cite-color: #92de92;
+    --native-dark-fill-color: #7d7d7d;
+    --native-dark-font-color: #dcdcdc;
+    --native-dark-link-color: #8db2e5;
+    --native-dark-opacity: 0.85;
+    --native-dark-text-shadow: none;
+    --native-dark-transparent-color: transparent;
+    --native-dark-visited-link-color: #c76ed7;
+}
+
+:root,
+::after,
+::before,
+::backdrop {
+    --native-dark-accent-color: #a9a9a9;
+    --native-dark-bg-color: #292929;
+    --native-dark-bg-image-color: rgba(0, 0, 0, 0.10);
+    --native-dark-bg-image-filter: brightness(50%) contrast(200%);
+    --native-dark-border-color: #555555;
+    --native-dark-box-shadow: 0 0 0 1px rgb(255 255 255 / 10%);
+    --native-dark-cite-color: #92de92;
+    --native-dark-fill-color: #7d7d7d;
+    --native-dark-font-color: #dcdcdc;
+    --native-dark-link-color: #8db2e5;
+    --native-dark-opacity: 0.85;
+    --native-dark-text-shadow: none;
+    --native-dark-transparent-color: transparent;
+    --native-dark-visited-link-color: #c76ed7;
+}
